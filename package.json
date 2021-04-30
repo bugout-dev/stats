@@ -1,0 +1,38 @@
+{
+  "name": "@bugout/stats",
+  "version": "0.0.1",
+  "description": "Bugout.dev crash reports statistics processing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint --project .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugout-dev/stats.git"
+  },
+  "files": [
+    "lib/*", "src/*"
+  ],
+  "keywords": [
+    "bugout",
+    "stats"
+  ],
+  "author": "Bugout.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bugout-dev/stats/issues"
+  },
+  "homepage": "https://github.com/bugout-dev/stats#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "tslint": "^6.1.3"
+  }
+}
